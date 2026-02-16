@@ -7,64 +7,63 @@
 </head>
 <body>
 
-    <!-- Navigation -->
     <header>
         <h1>My E-Portfolio</h1>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#services">Services</a>
-        </nav>
     </header>
 
-    <!-- Home Section -->
     <section id="home">
         <h2>Home</h2>
 
+        <!-- Profile Image -->
         <div class="profile">
-            <img src="profile.jpg" alt="My Image">
+            <img id="profileImage" alt="Profile Picture">
         </div>
 
+        <!-- About Me -->
         <div class="about">
             <h3>About Me</h3>
-            <p>Hi, I’m kevin Mbecha, a passionate Web Developer who enjoys creating clean, responsive, and user-friendly websites. I love turning ideas into functional digital experiences using HTML, CSS, and JavaScript. I’m always learning and improving my skills to build better and smarter solutions.</p>
+            <p>
+                Hi, I’m kevin Dan, a passionate Web Developer who enjoys 
+                creating  responsive websites for fun using HTML, CSS, and JavaScript frfrfr.
+            </p>
         </div>
 
+        <!-- Contact Form -->
         <div class="contact-form">
             <h3>Contact Me</h3>
             <form id="contactForm">
-                
-                <label>Full Name:</label>
+
+                <label>Name:</label>
                 <input type="text" id="name" required>
 
                 <label>Email:</label>
                 <input type="email" id="email" required>
 
-                <label>Phone Number:</label>
+                <label>Phone:</label>
                 <input type="tel" id="phone" required>
 
                 <label>Message:</label>
                 <textarea id="message" required></textarea>
 
-                <button type="submit">Send Message</button>
+                <button type="submit">Send</button>
             </form>
+
             <p id="formMessage"></p>
         </div>
     </section>
 
-    <!-- Services Section -->
     <section id="services">
-        <h2>Services I Offer</h2>
+        <h2>Services</h2>
         <ul>
             <li>Web Development</li>
             <li>Website Design</li>
             <li>Frontend Development</li>
-            <li>Responsive Website Creation</li>
-            <li>Website Maintenance</li>
+            <li>Responsive Web Design</li>
         </ul>
     </section>
 
     <footer>
-        <p>© 2026 My Portfolio | All Rights Reserved</p>
+        <p>© 2026 My Portfolio</p>
     </footer>
 
     <script src="script.js"></script>
