@@ -7,41 +7,36 @@
 
 body {
     background-color: #f4f4f4;
-    color: #333;
+    text-align: center;
 }
 
 header {
-    background: #222;
+    background-color: #222;
     color: white;
     padding: 15px;
-    text-align: center;
-}
-
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #00bcd4;
 }
 
 section {
-    padding: 40px;
-    text-align: center;
+    padding: 40px 20px;
 }
 
 .profile img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #00bcd4;
     margin: 20px 0;
+    transition: transform 0.3s ease;
+}
+
+.profile img:hover {
+    transform: scale(1.05);
 }
 
 .about {
-    margin: 20px auto;
     max-width: 600px;
+    margin: 20px auto;
 }
 
 .contact-form {
@@ -54,37 +49,39 @@ form {
     text-align: left;
 }
 
-form input, form textarea {
+form input,
+form textarea {
     width: 100%;
     padding: 10px;
     margin: 8px 0;
-    border: 1px solid #ccc;
     border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
 form button {
-    background: #00bcd4;
-    color: white;
+    width: 100%;
     padding: 10px;
+    background-color: #00bcd4;
+    color: white;
     border: none;
     cursor: pointer;
-    width: 100%;
+    border-radius: 5px;
 }
 
 form button:hover {
-    background: #0097a7;
+    background-color: #0097a7;
 }
 
 #services ul {
     list-style-type: square;
-    max-width: 300px;
-    margin: auto;
+    display: inline-block;
     text-align: left;
+    margin-top: 15px;
 }
 
 footer {
-    background: #222;
+    background-color: #222;
     color: white;
     padding: 10px;
-    text-align: center;
+    margin-top: 30px;
 }
